@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/parent_layout_padding"
+    tools:context="com.github.devishankar.utsample.LoginActivity">
+
+    <EditText
+        android:id="@+id/edt_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_login_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edt_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_login_email"
+        android:layout_marginTop="@dimen/element_default_margin_top"
+        android:hint="@string/hint_login_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_login_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/element_default_margin_top"
+        android:text="@string/btn_login" />
+
+    <Button
+        android:id="@+id/btn_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/element_default_margin_top"
+        android:text="@string/btn_change_password" />
+
+    <ProgressBar
+        android:id="@+id/pb_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

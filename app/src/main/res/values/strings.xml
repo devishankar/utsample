@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UTSample</string>
+    <string name="hint_login_email">Email</string>
+    <string name="hint_login_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="error_field_empty">This field cannot be empty</string>
+    <string name="error_incorrect_credentials">Email/Password incorrect</string>
+    <string name="toast_welcome">Welcome</string>
+    <string name="toast_password_change_success">Password chaged successfully</string>
+    <string name="toast_password_change_failure">Change password failed</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="lbl_welcome">Welcome</string>
+</resources>
